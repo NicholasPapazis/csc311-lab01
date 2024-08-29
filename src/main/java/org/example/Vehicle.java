@@ -15,4 +15,20 @@ public class Vehicle {
         this.engineSize = engineSize;
     }
 
+    //create getters
+    public int getNumberOfWheels() {
+        return numberOfWheels;
+    }
+    public String getColor() {
+        return color;
+    }
+    public float getEngineSize() {
+        return engineSize;
+    }
+    public String getFuelType() {
+        return fuelType;
+    }
+
+
+
 }
