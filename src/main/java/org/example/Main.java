@@ -17,6 +17,8 @@ public class Main {
                         "fuel type: " + vehicle1.getFuelType()
         );
 
+        System.out.println();
+
         //test the setters for Vehicle class
         vehicle1.setNumberOfWheels(4);
         vehicle1.setColor("Red");
@@ -31,6 +33,8 @@ public class Main {
                         "engine size: " + vehicle1.getEngineSize() + '\n' +
                         "fuel type: " + vehicle1.getFuelType()
         );
+
+        System.out.println();
 
 
 
@@ -49,6 +53,8 @@ public class Main {
                         "brand: " + car1.getBrand()
         );
 
+        System.out.println();
+
         //test the setters for Car class
         car1.setNumberOfWheels(4);
         car1.setColor("Blue");
@@ -66,10 +72,16 @@ public class Main {
                         "brand: " + car1.getBrand()
         );
 
+        System.out.println();
+
         //test the honk method
+        System.out.println("Below is the output for the honk method");
         car1.honk();
 
+        System.out.println();
+
         //test the displayInfo method
+        System.out.println("Below is the output for displayInfo function");
         car1.displayInfo();
 
 

@@ -21,12 +21,12 @@ public class Car extends Vehicle {
         this.brand = brand;
     }
 
-    //honk method
+    //honk method that prints honk
     public void honk() {
         System.out.println("Honk, honk!");
     }
 
-    //method that displays info
+    //method that displays car info
     public void displayInfo() {
         int numWheels = super.getNumberOfWheels();
         String carColor = super.getColor();
@@ -37,10 +37,10 @@ public class Car extends Vehicle {
         System.out.println(
                 "car info:" + "\n" +
                 "number of wheels: " + numWheels + "\n" +
-                "color: " + numWheels + "\n" +
-                "engine size: " + numWheels + "\n" +
-                "fuel type: " + numWheels + "\n" +
-                "brand: " + numWheels + "\n"
+                "color: " + carColor + "\n" +
+                "engine size: " + engine + "\n" +
+                "fuel type: " + fuel + "\n" +
+                "brand: " + carBrand + "\n"
         );
 
     }
