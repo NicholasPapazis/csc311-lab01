@@ -35,7 +35,7 @@ public class Car extends Vehicle {
         String carBrand = brand;
 
         System.out.println(
-                "car info:" + '\n' +
+                "car info:" + "\n" +
                 "number of wheels: " + numWheels + "\n" +
                 "color: " + numWheels + "\n" +
                 "engine size: " + numWheels + "\n" +
