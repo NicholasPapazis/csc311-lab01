@@ -13,6 +13,7 @@ public class Vehicle {
         this.numberOfWheels = numberOfWheels;
         this.color = color;
         this.engineSize = engineSize;
+        this.fuelType = fuelType;
     }
 
     //create getters
