@@ -7,4 +7,12 @@ public class Vehicle {
     private String color;
     private float engineSize;
     private String fuelType;
+
+    //create constructor that sets all the attributes
+    public Vehicle(int numberOfWheels, String color, float engineSize, String fuelType) {
+        this.numberOfWheels = numberOfWheels;
+        this.color = color;
+        this.engineSize = engineSize;
+    }
+
 }
