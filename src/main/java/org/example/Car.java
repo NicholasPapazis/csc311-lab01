@@ -11,6 +11,13 @@ public class Car extends Vehicle {
         this.brand = brand;
     }
 
+    //honk function
+    public void honk() {
+        System.out.println("Honk, honk!");
+    }
+
+
+
 
 
 
