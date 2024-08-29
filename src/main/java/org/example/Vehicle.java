@@ -29,6 +29,18 @@ public class Vehicle {
         return fuelType;
     }
 
-
+    //create setters
+    public void setNumberOfWheels(int numberOfWheels) {
+        this.numberOfWheels = numberOfWheels;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public void setEngineSize(float engineSize) {
+        this.engineSize = engineSize;
+    }
+    public void setFuelType(String fuelType) {
+        this.fuelType = fuelType;
+    }
 
 }
